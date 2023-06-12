@@ -28,7 +28,7 @@ h1 {
   background: #1a1a40;
   margin-top: 5rem;
   padding: 2rem;
-  border-radius: 5px;
+  border-radius: 40px;
 }
 
 .TodoForm {
@@ -39,6 +39,7 @@ h1 {
   outline: none;
   background: none;
   border: 1px solid #8758ff;
+  /* border-radius: 12px; */
   padding: 0.5rem 1rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
@@ -54,6 +55,7 @@ h1 {
   background: #8758ff;
   color: #fff;
   border: none;
+  /* border-radius: 12px; */
   padding: 0.55rem;
   cursor: pointer;
 }
@@ -65,7 +67,7 @@ h1 {
   background: #8758ff;
   color: #fff;
   padding: 0.75rem 1rem;
-  border-radius: 5px;
+  border-radius: 15px;
   margin-bottom: 1rem;
   cursor: pointer;
 }
