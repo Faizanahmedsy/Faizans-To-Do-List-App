@@ -1,7 +1,12 @@
 import React from "react";
+
+// Font Awesome Imports 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPenToSquare } from "@fortawesome/free-solid-svg-icons";
 import { faTrash } from "@fortawesome/free-solid-svg-icons";
+
+
+
 export const Todo = ({ task, deleteTodo, editTodo, toggleComplete }) => {
   return (
     <div className="Todo">
