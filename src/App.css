@@ -1,5 +1,8 @@
+/* font-setup for the entire app */
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
+
+/* Universal Styles */
 * {
   font-family: "Poppins", sans-serif;
   margin: 0;
@@ -72,6 +75,9 @@ h1 {
   cursor: pointer;
 }
 
+
+
+/* Icons Custom Styles  */
 .fa-trash {
   margin-left: 0.75rem;
 }
