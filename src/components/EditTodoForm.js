@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export const EditTodoForm = ({ editTodo, task }) => {
-  const [value, setValue] = useState(task.task);
+  const [value, setValue] = useState(task.task);//task is a prop, and task.task is the property of that prop
 
   const handleSubmit = (e) => {
     // prevent default action
