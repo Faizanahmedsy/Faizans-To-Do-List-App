@@ -8,6 +8,7 @@ uuidv4();
 export const TodoWrapperLocalStorage = () => {
   const [todos, setTodos] = useState([]);
 
+  //to save todas in local storage
   useEffect(() => {
     const savedTodos = JSON.parse(localStorage.getItem("todos")) || [];
     setTodos(savedTodos);
